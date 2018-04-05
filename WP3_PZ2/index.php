@@ -8,8 +8,8 @@
   <body>
     <?php
     $angriness = 0;
-    define(MAX_ANGRINESS, 100);
-    
+    define("MAX_ANGRINESS", 100);
+
     while ($angriness < MAX_ANGRINESS)
     {
       $valueToAdd = rand(2, 7);
